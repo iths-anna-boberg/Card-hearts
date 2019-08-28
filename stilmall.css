@@ -1,0 +1,92 @@
+/*body {
+    background-color: grey;
+}*/
+
+main{
+    background-color: grey;
+    width: 20rem;
+    height: 32rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+section{
+
+    font-family: Arial;
+    font-size: 16px;
+    
+}
+
+.card {
+    padding: 0.5rem;
+    margin: auto;
+    display: flex;
+    background-color: rgb(245, 241, 241);
+    width: 17rem;
+    height: 29rem;
+    border: 0.5em solid white;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+.heart-top{
+    /*width: 0%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0rem;
+    padding: 0px;
+    
+}
+
+.heart-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    padding: 0px;
+}
+
+.heart-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 0px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+.topnumber{
+    display: flex;
+    margin: 0rem 1rem 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomnumber{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0rem 1rem 0rem 1rem;
+    transform: rotate(180deg);
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+.top{
+    max-width: 80%;
+    height: auto;
+}
+
+.bottom{
+    max-width: 80%;
+    height: auto;
+    transform: rotate(180deg);
+}
